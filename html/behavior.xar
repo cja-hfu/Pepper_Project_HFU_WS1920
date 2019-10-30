@@ -511,7 +511,7 @@ class MyClass(GeneratedClass):
             and abs(positionError.theta) < self.positionErrorThresholdAng):
             self.onArrivedAtDestination()
         else:
-            self.tts.say("Es ist ein Fehler aufgetreten. Ich beende das Programm.")
+            #self.tts.say("Es ist ein Fehler aufgetreten. Ich beende das Programm.")
             self.onStoppedBeforeArriving(positionError.toVector())
 
     def onInput_onStop(self):
@@ -522,6 +522,7 @@ class MyClass(GeneratedClass):
         self.memoryProxy = ALProxy("ALMemory")
         self.navigation = ALProxy("ALNavigation")
         self.tts = ALProxy('ALTextToSpeech')
+        self.motion = ALProxy("ALMotion")
 
     def onLoad(self):
         #put initialization code here
@@ -584,7 +585,7 @@ class MyClass(GeneratedClass):
                             self.onStopped() #activate the output of the box
                             return
                         else:
-                            self.navigation.moveTo(0.0, 0.0, direction * 0.2 * math.pi) # turn
+                            self.motion.moveTo(0.0, 0.0, direction * 0.2 * math.pi) # turn
                             print "not found the desired Landmark!"
                 except Exception, e:
                     print "Landmarks detected, but it seems getData is invalid. ALValue ="
@@ -594,7 +595,7 @@ class MyClass(GeneratedClass):
                     self.failure() #activate the output of the box
                     return
             else:
-                self.navigation.moveTo(0.0, 0.0, direction * 0.2 * math.pi) # turn
+                self.motion.moveTo(0.0, 0.0, direction * 0.2 * math.pi) # turn
 
         if detected == 0:
             print "no landmarks detected within given Timeout!"

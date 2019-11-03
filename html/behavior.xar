@@ -2087,6 +2087,7 @@ class MyClass(GeneratedClass):
         self.memoryProxy = ALProxy("ALMemory")
         self.navigation = ALProxy("ALNavigation")
         self.tts = ALProxy('ALTextToSpeech')
+        self.motion = ALProxy("ALMotion")
 
     def onLoad(self):
         #put initialization code here
@@ -2148,7 +2149,7 @@ class MyClass(GeneratedClass):
                             self.onStopped() #activate the output of the box
                             return
                         else:
-                            self.navigation.moveTo(0.0, 0.0, direction * 0.2 * math.pi) # turn left
+                            self.motion.moveTo(0.0, 0.0, direction * 0.2 * math.pi) # turn left
                             print "not found the desired Landmark!"
                 except Exception, e:
                     print "Landmarks detected, but it seems getData is invalid. ALValue ="
@@ -2158,7 +2159,7 @@ class MyClass(GeneratedClass):
                     self.failure() #activate the output of the box
                     return
             else:
-                self.navigation.moveTo(0.0, 0.0, direction * 0.2 * math.pi) # turn left
+                self.motion.moveTo(0.0, 0.0, direction * 0.2 * math.pi) # turn left
 
         if detected == 0:
             print "no landmarks detected within given Timeout!"

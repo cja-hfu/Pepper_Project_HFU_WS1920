@@ -1,0 +1,21 @@
+.button {
+    /*display: inline-block;*/
+    padding: 15px 25px;
+    font-size: 60px;
+    /* text-decoration: blink */
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 120px;
+    box-shadow: 0 12px #999;
+}
+
+.button1 {width: 30%; background-color: green; padding: 100px 100px; margin: 20px;}
+.button2 {width: 30%; background-color: yellow;padding: 100px 100px; margin: 20px; }
+.button3 {width: 30%; background-color:red; padding: 100px 50px; margin: 20px;
+}
+
+#button:active {
+    background: url(button.png) no-repeat bottom;
+}

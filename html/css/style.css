@@ -28,6 +28,10 @@
     text-align: center;
 }
 
+#callShowcaseWrapper{
+    text-align: center;
+}
+
 .button1 {
     width: 30%;
     background-color:green;

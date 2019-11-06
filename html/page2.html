@@ -1,38 +1,46 @@
 <!DOCTYPE html>
-<html lang="ja">
-  <head>
+<head>
     <meta charset="UTF-8">
 
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/main.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=1280, user-scalable=no" />
+    <meta name="viewport" content="width=1280, user-scalable=no"/>
     <script src="js/jquery-3.1.0.min.js"></script>
-   <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 
     <title>MOS Projekt</title>
     <script src="/libs/qimessaging/2/qimessaging.js"></script>
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-  </head>
+</head>
 
-  <body>
-    <div class="base">
-      <div class="content row">
-          <div class="col s12">
+<body>
+<div class="base">
+    <div class="content row">
+        <div class="col s12">
             <div class="preview" align="center">
-              <img id="image" src="Hochschule_Furtwangen_HFU_logo.svg" class="responsive-img image" align="right" width="250px"/>
+                <img id="image" src="Hochschule_Furtwangen_HFU_logo.svg" class="responsive-img image" align="right"
+                     width="250px"/>
             </div>
-          </div>
-          <h2 id="title" class="title">Hast du genug getrunken?</h2>
-      </div>
-      <!DOCTYPE html>
-  </body>
-    <center>
-        <button id="say" onclick="location.href='page3.html';" class="button button1"> Ja ✔ </button>
-        <button onclick="location.href='page4.html';" class="button button3"> Nein ✖ </button>
-    <center><img id="help"  src="question.jpg" onclick="location.href='hilfe.html';" class="responsive-img image" align="middle" width="100px"/><right> <h1> Hilfe </h1></right></center>s
+        </div>
+        <h2 id="title" class="title">Hast du genug getrunken?</h2>
+    </div>
+    <!DOCTYPE html>
+    <div id="buttonWrapper">
+        <button id="say" onclick="location.href='page3.html';" class="button button1"> Ja ✔</button>
+        <button onclick="location.href='page4.html';" class="button button3"> Nein ✖</button>
+    </div>
+    <div id="iconWrapper">
+        <img id="help" src="question.jpg" onclick="location.href='hilfe.html';" class="responsive-img image"
+             align="middle" width="100px"/>
+    </div>
+    <div id="descriptionWrapper">
+        <h1> Hilfe </h1>
+    </div>
+</div>
+</body>
 
 </html>

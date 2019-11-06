@@ -42,12 +42,13 @@
     width: 30%;
     background-color:yellow;
     padding: 100px 100px;
-    margin: 20px;
+    margin-left: 20px;
 }
 
 .button3 {background-color:red;
     padding: 100px 50px;
     width: 30%;
+    margin-left: 20px;
 }
 
 #button:active {

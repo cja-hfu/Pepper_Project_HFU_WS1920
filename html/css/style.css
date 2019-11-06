@@ -10,6 +10,11 @@
     border-radius: 120px;
     box-shadow: 0 12px #999;
 }
+
+#showcaseIconWrapper{
+    text-align: center;
+}
+
 #buttonWrapper {
     text-align: center;
 }

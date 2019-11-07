@@ -32,6 +32,11 @@
         <File name="round_clock_icon_6813527" src="html/round_clock_icon_6813527.jpg" />
         <File name="water" src="html/water.jpg" />
         <File name="" src=".metadata" />
+        <File name="Waterbuddy" src=".idea/Waterbuddy.iml" />
+        <File name="encodings" src=".idea/encodings.xml" />
+        <File name="modules" src=".idea/modules.xml" />
+        <File name="vcs" src=".idea/vcs.xml" />
+        <File name="workspace" src=".idea/workspace.xml" />
     </Resources>
     <Topics />
     <IgnoredPaths />

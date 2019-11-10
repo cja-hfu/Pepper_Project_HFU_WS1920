@@ -1,0 +1,60 @@
+.button {
+    /*display: inline-block;*/
+    padding: 15px 25px;
+    font-size: 60px;
+    /* text-decoration: blink */
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 120px;
+    box-shadow: 0 12px #999;
+}
+
+#showcaseIconWrapper{
+    text-align: center;
+}
+
+#buttonWrapper {
+    text-align: center;
+}
+
+#iconWrapper{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#descriptionWrapper{
+    text-align: center;
+}
+
+#callShowcaseWrapper{
+    text-align: center;
+}
+
+.button1 {
+    width: 30%;
+    background-color:green;
+    padding: 100px 100px;
+}
+
+.button2 {
+    width: 30%;
+    background-color:yellow;
+    padding: 100px 100px;
+    margin-left: 20px;
+}
+
+.button3 {background-color:red;
+    padding: 100px 50px;
+    width: 30%;
+    margin-left: 20px;
+}
+
+#button:active {
+    background: url(button.png) no-repeat bottom;
+}
+
+#title {
+    text-align: center;
+}

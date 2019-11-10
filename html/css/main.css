@@ -9,7 +9,7 @@ div.title{
 
 div.base{
     /* http://qiita.com/tonosamart/items/e7dfea02772d7ce762cf */
-    width: 1700px;
+    width: auto;
     height: 1010px; /* 1019 - margin 4px*/
     margin: 4px;
     margin-left: auto;

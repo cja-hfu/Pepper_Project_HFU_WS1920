@@ -37,6 +37,9 @@
         <File name="modules" src=".idea/modules.xml" />
         <File name="vcs" src=".idea/vcs.xml" />
         <File name="workspace" src=".idea/workspace.xml" />
+        <File name="Pepper_Project_HFU_WS1920" src=".idea/Pepper_Project_HFU_WS1920.iml" />
+        <File name="misc" src=".idea/misc.xml" />
+        <File name="watcherTasks" src=".idea/watcherTasks.xml" />
     </Resources>
     <Topics />
     <IgnoredPaths />
